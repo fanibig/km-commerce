@@ -1,0 +1,67 @@
+<?php
+
+return [
+    'start_of_week' => [
+        '0' => 'Sunday',
+        '1' => 'Monday',
+        '2' => 'Tuesday',
+        '3' => 'Wednesday',
+        '4' => 'Thursday',
+        '5' => 'Friday',
+        '6' => 'Saturday'
+    ],
+    'timezone' => 'UTC',
+    'locale' => 'en',
+    'currency' => 'PKR',
+    'months' => [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+    ],
+    'option_general' => [
+        'site_name',
+        'site_tagline',
+        'users_can_register',
+        'site_logo',
+        'site_favicon',
+        'site_description',
+        'home_url',
+        'site_url',
+        'admin_email',
+        'default_language',
+        'default_timezone',
+        'default_role',
+        'date_format',
+        'time_format',
+        'start_of_week'
+    ],
+    'option_writing' => [
+        'mailserver_url',
+        'mailserver_login',
+        'mailserver_pass',
+        'mailserver_port',
+        'default_category',
+    ],
+    'option_reading' => [
+        'posts_per_page',
+        'posts_per_page_admin',
+    ],
+    'default_guard_admin' => 'admin',
+    'default_guard_web' => 'web',
+    'default_per_page' => 20,
+    'default_category' => 1,
+    'default_role' => 1,
+    'default_language' => 'en',
+    'default_timezone' => 'UTC',
+    'default_role_name' => 'subscriber',
+    'child_separator' => '<i class="fa-solid fa-minus mr-1"></i>',
+];
